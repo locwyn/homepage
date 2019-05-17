@@ -9,5 +9,6 @@
       foreach($recordsArray as $line) {
         echo $line;
       }
+    ?>
   </body>
 </html>
