@@ -1,14 +1,13 @@
 <html>
-  <head>
-    <title>PHP Test</title>
-  </head>
-  <body>
-    <?php echo '<h2>Seed Starter Temps</h2>'; ?>
-    <?php
-      $recordsArray = file('/home/gbk/data/weatherTracker/seedStarter/seedStarterTemps20170301.txt')
-      foreach($recordsArray as $line) {
-        echo $line;
-      }
-    ?>
-  </body>
+	<head>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<title>locwyn.com</title>
+	</head>
+	<body>
+		<div id="header">
+			<h2>Hello World!</h2>
+			<p class="lightText">This is the homepage of Locwyn the Luciferous!</p>
+			<?php echo '<a href="seedStarter.php"><h3>Seed Starter Temps</h3></a>'; ?>
+		</div>
+	</body>
 </html>
